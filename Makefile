@@ -30,6 +30,10 @@ $(OBJ): config.h config.mk
 st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
+st-static: $(OBJ)
+	mkdir -p static
+	$(CC) -static -o static/st $(OBJ) $(STLDFLAGS) -ldl -lpng16 -lz -lpthread -luuid -lm -lexpat -lbrotlidec -lbrotlicommon
+
 clean:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
