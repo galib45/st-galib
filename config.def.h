@@ -13,7 +13,7 @@ static char *font2[] = {
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
     "DejaVuSansMono Nerd Font Mono:style=Book:size=11.5:antialias=true:autohint:true",
     "Symbola:style=Regular:size=14",//"Noto Emoji:style=Regular:pixelsize=14",
-    "Kalpurush:style=Regular:size=12"
+    "SolaimanLipi:style=Regular:size=12"
 };
 
 static int borderpx = 2;
