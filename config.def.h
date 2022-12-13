@@ -11,9 +11,9 @@ static char *font = "DejaVuSansMono Nerd Font Mono:style=Book:size=11.5:antialia
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
-    "DejaVuSansMono Nerd Font Mono:style=Book:size=11.5:antialias=true:autohint:true",
-    "Symbola:style=Regular:size=14",//"Noto Emoji:style=Regular:pixelsize=14",
-    "SolaimanLipi:style=Regular:size=12"
+	"DejaVuSansMono Nerd Font Mono:style=Book:size=11.5:antialias=true:autohint:true",
+    "SolaimanLipi:style=Regular:size=12",
+    "Noto Color Emoji:style=Regular:size=12"
 };
 
 static int borderpx = 2;
