@@ -6,10 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font = "Hack Nerd Font Mono:style=Regular:size=11:antialias=true:autohint=true";
+static char *font = "Iosevka Nerd Font Mono:style=Regular:size=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+	"Iosevka Nerd Font Mono:style=Regular:size=12:antialias=true:autohint=true",
 	"Hack Nerd Font Mono:style=Regular:size=11:antialias=true:autohint=true", 
 	"DejaVuSansM Nerd Font Mono:style=Regular:size=11:antialias=true:autohint:true",
 	"SolaimanLipi:style=Regular:size=12",
